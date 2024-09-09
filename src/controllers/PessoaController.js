@@ -5,7 +5,7 @@ const PessoaServices = require('../services/PessoaServices.js');
 //Instância PessoaServices:
 const pessoaServices = new PessoaServices();
 
-//Controlador para "pessoas":
+//Controlador para "pessoa":
 class PessoaController extends Controller {
   constructor() {
     super(pessoaServices);

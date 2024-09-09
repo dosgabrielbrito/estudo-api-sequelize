@@ -12,16 +12,14 @@ class Services {
   }
 
   //Pegar um registro do modelo selecionado:
-
-  // async pegaUmRegistroPorId(id) {
-  //   return dataSource[this.model].findByPk(id);
-  // }
+  async pegaUmRegistroPorId(id) {
+    return dataSource[this.model].findByPk(id);
+  }
 
   //Criar registro do modelo selecionado:
-
-  // async criaRegistro(dadosDoRegistro) {
-  //   return dataSource[this.model].create(dadosDoRegistro);
-  // }
+  async criaRegistro(dadosDoRegistro) {
+    return dataSource[this.model].create(dadosDoRegistro);
+  }
 
   //Atualizar registros do modelo selecionado:
   async atualizaRegistro(dadosAtualizados, id) {
@@ -40,10 +38,9 @@ class Services {
   }
 
   //Deletar um registro do modelo selecionado:
-
-  // async excluiRegistro(id) {
-  //   return dataSource[this.model].destroy({ where: { id: id } });
-  // }
+  async excluiRegistro(id) {
+    return dataSource[this.model].destroy({ where: { id: id } });
+  }
 }
 
 //Exportações:
