@@ -1,4 +1,3 @@
-//Importações:
 const Services = require('./Services.js');
 
 class CursoServices extends Services {
@@ -7,5 +6,4 @@ class CursoServices extends Services {
   }
 }
 
-//Exportações:
 module.exports = CursoServices;

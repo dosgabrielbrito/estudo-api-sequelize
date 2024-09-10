@@ -1,4 +1,3 @@
-//Importações:
 const Services = require('./Services.js');
 
 class PessoaServices extends Services {
@@ -6,7 +5,6 @@ class PessoaServices extends Services {
     super('Pessoa');
   }
 
-  //Métodos exclusivos de PessoaServices:
   async pegaMatriculasPorEstudante(id) {
     const estudante = await super.pegaUmRegistroPorId(id);
     const listaMatriculas = await estudante.getAulasMatriculadas();
@@ -14,5 +12,4 @@ class PessoaServices extends Services {
   }
 }
 
-//Exportações:
 module.exports = PessoaServices;
