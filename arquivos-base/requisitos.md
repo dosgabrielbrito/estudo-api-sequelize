@@ -8,7 +8,7 @@
 
 - É importante poder consultar todas as matrículas confirmadas referentes a estudante X de forma rápida. _OK (ASSOCIAÇÃO)_
 
-- O cliente gostaria de poder consultar as turmas abertas por intervalo de data, para não receber informações desnecessárias (como turmas antigas).
+- O cliente gostaria de poder consultar as turmas abertas por intervalo de data, para não receber informações desnecessárias (como turmas antigas). _OK (FILTRO POR DATA)_
 
 - O cliente quer poder consultar as matrículas por turma e saber quais delas estão lotadas, para organizar melhor as matrículas.
 

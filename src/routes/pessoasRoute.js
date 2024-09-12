@@ -26,6 +26,9 @@ router.get('/pessoas/:estudante_id/matriculas', (req, res) =>
 router.get('/pessoas/:estudante_id/matriculas/todos', (req, res) =>
   pessoaController.pegaTodasAsMatriculas(req, res)
 );
+router.get('/pessoas/:estudante_id/matriculas/confirmadas', (req, res) =>
+  matriculaController.pegaMatriculasPorEstudante(req, res)
+);
 router.get('/pessoas/:estudante_id/matriculas/:id', (req, res) =>
   matriculaController.pegaUm(req, res)
 );
