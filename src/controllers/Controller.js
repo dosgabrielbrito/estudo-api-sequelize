@@ -51,8 +51,8 @@ class Controller {
 
   async atualiza(req, res) {
     const { ...params } = req.params;
-    const dadosAtualizados = req.body;
     const where = converteIds(params);
+    const dadosAtualizados = req.body;
     try {
       //isUpdated
       const foiAtualizado = await this.entidadeService.atualizaRegistro(
